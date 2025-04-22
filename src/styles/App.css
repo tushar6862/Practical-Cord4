@@ -1,0 +1,17 @@
+.layout {
+    min-height: 100vh;
+  }
+  
+  @media (max-width: 768px) {
+    .ant-layout-content {
+      padding: 0 20px !important;
+    }
+  
+    .ant-table {
+      font-size: 12px;
+    }
+  
+    .ant-card {
+      margin-bottom: 16px;
+    }
+  }
