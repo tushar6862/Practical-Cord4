@@ -34,11 +34,7 @@ const ProductTable = () => {
   };
 
   const columns = [
-    {
-      title: 'Image',
-      dataIndex: 'image',
-      render: (text) => <img src={text} alt="product" style={{ width: 50 }} />,
-    },
+  
     { title: 'Name', dataIndex: 'name', sorter: (a, b) => a.name.localeCompare(b.name) },
     { title: 'SKU', dataIndex: 'sku' },
     {

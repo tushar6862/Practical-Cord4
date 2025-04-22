@@ -57,11 +57,11 @@ const InventoryForm = ({ initialValues, onSubmit, onCancel }) => {
       </Form.Item>
       <Form.Item>
         <Space>
-          <Button type="primary" onClick={handleSubmit} loading={loading}>
-            Submit
-          </Button>
           <Button onClick={() => { form.resetFields(); onCancel(); }}>
             Cancel
+          </Button>
+          <Button type="primary" onClick={handleSubmit} loading={loading}>
+            Submit
           </Button>
         </Space>
       </Form.Item>

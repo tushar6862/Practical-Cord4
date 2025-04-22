@@ -1,7 +1,15 @@
 .layout {
     min-height: 100vh;
-  }
-  
+}
+.ant-modal-header {
+    margin-bottom: 10px !important;
+}
+.ant-form-item {
+    margin-bottom: 10px !important;
+}
+.ant-form-item-label {
+    padding: 0 !important;
+}
   @media (max-width: 768px) {
     .ant-layout-content {
       padding: 0 20px !important;

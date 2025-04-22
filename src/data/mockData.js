@@ -5,8 +5,7 @@ export const products = [
       sku: 'LAP123',
       price: 999.99,
       stock: 50,
-      status: true,
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEDWd-_1soqsKlF_kv9akPYEEImlnfIa88BTRkdtJzKCVTM-Uqv6dL8zJeLZ-ktKy-DfY&usqp=CAU',
+      status: true
     },
     {
       key: '2',
@@ -14,8 +13,7 @@ export const products = [
       sku: 'SMP456',
       price: 599.99,
       stock: 100,
-      status: true,
-      image: 'https://pngimg.com/uploads/smartphone/smartphone_PNG8501.png',
+      status: true
     },
     {
       key: '3',
@@ -23,8 +21,7 @@ export const products = [
       sku: 'HP789',
       price: 199.99,
       stock: 20,
-      status: false,
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd0kv24RddQp54t5pLlr32LggyQ8YTCGIfgw&s',
+      status: false
     },
   ];
   
